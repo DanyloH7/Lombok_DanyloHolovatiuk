@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class CarWithLombok {
+    private String brand;
+    private int year;
 }
